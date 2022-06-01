@@ -1,0 +1,58 @@
+html,
+body {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+.list-reset {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: Ubuntu;
+  font-weight: 700;
+}
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+img,
+iframe,
+video,
+embed {
+  max-width: 100% !important;
+  height: auto;
+}
+input,
+textarea {
+  outline: none;
+  resize: none;
+}
+body {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #000;
+}
